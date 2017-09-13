@@ -9,7 +9,7 @@ module InteriorPoint=
         let E (xk:Vector<float>, sk:Vector<float>, mu:float)=
                 1.0
      
-     //simple search algorithm
+     //simple search algorithm for linear search
         let SearchDescendent(N:int,mint:float,maxt:float) (f:float -> bool)=
             let dt = (maxt-mint)/float(N)
             let mutable t = maxt;
