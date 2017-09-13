@@ -114,6 +114,8 @@ module InteriorPoint=
             
             let lh = l.SubVector(0,Ah.RowCount)
             let lg = l.SubVector(Ah.RowCount,Ag.RowCount)
+            
+            //Todo: process lg to modify the Hessian_s diagonal matrix
                         
             l
             
