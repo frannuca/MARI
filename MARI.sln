@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.0.0
-MinimumVisualStudioVersion = 10.0.0.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimization", "Optimization\Optimization.fsproj", "{4DF74FBE-7C47-4F12-8603-7F741B7D325A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Nitro", "Nitro\Nitro.fsproj", "{36FC56BD-AC44-4B3C-BB53-9A4137BE5EB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4DF74FBE-7C47-4F12-8603-7F741B7D325A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DF74FBE-7C47-4F12-8603-7F741B7D325A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DF74FBE-7C47-4F12-8603-7F741B7D325A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36FC56BD-AC44-4B3C-BB53-9A4137BE5EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36FC56BD-AC44-4B3C-BB53-9A4137BE5EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36FC56BD-AC44-4B3C-BB53-9A4137BE5EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36FC56BD-AC44-4B3C-BB53-9A4137BE5EB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
